@@ -11,5 +11,6 @@ urlpatterns = [
         path('exe_previous_leads',views.exe_previous_leads,name='exe_previous_leads'),
         path('current_leads',views.current_leads,name='current_leads'),
         path('newly_assigned_leads',views.newly_assigned_leads,name='newly_assigned_leads'),
+        path('status_progress',views.status_progress,name='status_progress'),
 
 ]
